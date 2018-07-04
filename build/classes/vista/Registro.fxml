@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.RegistroController">
+   <children>
+      <TableView fx:id="tabla_Registro" layoutX="33.0" layoutY="39.0" prefHeight="443.0" prefWidth="561.0">
+        <columns>
+          <TableColumn fx:id="colProductoR" prefWidth="295.0" text="Proucto" />
+          <TableColumn fx:id="colPrecioR" prefWidth="90.0" text="Precio" />
+            <TableColumn fx:id="colCantidadR" prefWidth="96.0" text="Cantidad" />
+            <TableColumn fx:id="colId" prefWidth="79.0" text="ID" />
+        </columns>
+      </TableView>
+      <TextField fx:id="tTotal" layoutX="445.0" layoutY="495.0" promptText="\$ TOTAL HOY" />
+      <Button fx:id="bExportar" layoutX="321.0" layoutY="495.0" mnemonicParsing="false" onAction="#wipear_Venta" text="Exportartxt" />
+   </children>
+</AnchorPane>

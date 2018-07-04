@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.AyudaController">
+   <children>
+      <TextArea editable="false" layoutX="5.0" layoutY="63.0" prefHeight="272.0" prefWidth="593.0" text="Stock:  Seleccionar producto a al cual desee actualizar Stock y presione F6.&#10;&#10;Precio: Seleccionar producto al cual desee modificar el precio y presione F5.&#10;&#10;Eliminar:  Seleccionar producto que desea eliminar de sus productos, t presione SUPR.&#10;&#10;">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <padding>
+            <Insets bottom="60.0" top="60.0" />
+         </padding>
+      </TextArea>
+      <Button fx:id="b_ok" layoutX="264.0" layoutY="351.0" mnemonicParsing="false" onAction="#cerrarVentana" prefHeight="25.0" prefWidth="74.0" text="OK" />
+      <Label layoutX="195.0" layoutY="26.0" text="SHORTCUTS DETECLADO">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

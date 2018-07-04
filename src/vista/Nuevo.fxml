@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.NuevoController">
+   <children>
+      <Label layoutX="68.0" layoutY="72.0" text="Producto" />
+      <Label layoutX="84.0" layoutY="113.0" text="Precio" />
+      <Label layoutX="253.0" layoutY="113.0" text="Stock Inicial" />
+      <TextField fx:id="tprodNuevo" layoutX="125.0" layoutY="68.0" prefHeight="25.0" prefWidth="445.0" />
+      <TextField fx:id="tprecioNuevo" layoutX="125.0" layoutY="109.0" prefHeight="25.0" prefWidth="119.0" />
+      <TextField fx:id="tstockNuevo" layoutX="325.0" layoutY="109.0" prefHeight="25.0" prefWidth="129.0" />
+      <Button fx:id="b_ingresar" layoutX="229.0" layoutY="172.0" mnemonicParsing="false" onAction="#agregar_Producto" text="Ingresar Producto" />
+   </children>
+</AnchorPane>
